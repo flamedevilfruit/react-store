@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+                          /* Header styles */
+.header_div {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
+}
+
+.header_logo {
+  font-weight: 500;
+  right: 100%;
+  border:2px solid blue;
+}
+
+.nav_element {
+  border: 2px solid green;
+}
+
+.icons {
+  border: 2px solid yellow;
+}
