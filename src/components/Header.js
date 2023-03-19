@@ -6,7 +6,7 @@ import { faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
   return (
-    <div>
+    <div className="header_img_background">
       <div className="header_div">
       <h2 className="header_logo">Store</h2>
       <nav className="navbar">
@@ -24,7 +24,7 @@ export default function Header() {
     </div><div className="header_title">
         <h3 className="header_title_text">Découvres nos toutes nouvelles Céramiques</h3>
         <p className="header_subtitle_text">Profitez de -30% de réduction sur votre première commande avec le code: <span>ceramic2023</span><br />Offre disponible jusqu'à fin mars.</p>
-        <a href='#'><button className="header_button">Commander</button></a>
+        <button className="header_button"><a href='#'>Commander</a></button>
       </div>
     </div>
   );
