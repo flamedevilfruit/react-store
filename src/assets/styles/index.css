@@ -70,6 +70,11 @@ body {
   margin: 90px 0px 0px 100px;
 }
 
+.header_title h3 {
+  font-size: 36px;
+  margin-bottom: -0.6rem;
+}
+
 .header_subtitle_text span {
   text-transform: uppercase;
   font-weight: bold;
