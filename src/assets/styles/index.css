@@ -1,25 +1,25 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body {
   margin: 0;
-  font-family: 'Lexend', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
 }
 
                           /* Header styles */
 .header_div {
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
-  border: 2px solid red;
-}
+  align-items: center;
+ }
 
 .header_logo {
   font-weight: 500;
   right: 100%;
-  border:2px solid blue;
+  font-size: 2rem;
 }
 
 .nav_element {
-  border: 2px solid green;
   display: flex;
   flex-direction: row;
   text-decoration: none;
@@ -31,10 +31,38 @@
   text-decoration: none;
   color: black;
   padding: 10px;
-  background-color: aqua;
   border-radius: 1rem;
+}
+.navbar a:hover {
+  background-color: #f28482;
+  color: #ffff;
+  transition: background-color 0.4s ease-in-out;
 }
 
 .icons {
-  border: 2px solid yellow;
+  font-size: 1.5em;
+  color: grey;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header_title {
+  font-family: 'Poppins', sans-serif;
+  margin: 90px 0px 0px 100px;
+}
+
+.header_subtitle_text span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header_button {
+  background-color: #f28482;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 1rem;
+  font-weight: bold;
 }
