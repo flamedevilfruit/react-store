@@ -1,35 +1,19 @@
 import React from 'react';
 import '../assets/styles/index.css';
+import products from './Products';
 
 
-const products = [
-  {
-    id: 1,
-    title: 'Product 1',
-    price: 100,
-    image: '../assets/images/product1.jpg',
-  },
-  {
-    id: 2,
-    title: 'Product 2',
-    price: 200,
-    image: '../assets/images/product2.jpg',
-  },
-  {
-    id: 3,
-    title: 'Product 3',
-    price: 300,
-    image: '../assets/images/product3.jpg',
-  }
-]
 
 for (let i = 0; i < products.length; i++) {
   products[i].id = i + 1;
 }
 
+
+
 export default function Section() {
     return (
       <div className="section">
+        <h3 className="section__title">Nos produits</h3>
         <div className="section__products">
           {products.map((product, index) => {
             return (
