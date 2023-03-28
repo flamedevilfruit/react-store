@@ -18,17 +18,12 @@ body {
   font-weight: 500;
   right: 100%;
   font-size: 2rem;
-  color: #d4a373;
+  color: #6a994e;
   font-family: 'Lexend', sans-serif;
 }
 
-.header_logo:hover {
-  color: #344e41;
-  transition: color 0.4s ease-in-out;
-}
-
 .header_img_background {
-  background-image: url('../images/images.jpg');
+  background-image: url('../images/header_img.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -46,12 +41,12 @@ body {
   font-weight: 300;
   list-style-type: none;
   text-decoration: none;
-  color: #d4a373;
+  color: #6a994e;
   padding: 10px;
   border-radius: 1rem;
 }
 .navbar a:hover {
-  color: #344e41;
+  color: #eb5e28;
   transition: background-color 0.4s ease-in-out;
 }
 
@@ -63,15 +58,11 @@ body {
   gap: 5px;
 }
 
-.icons_i:hover {
-  color:#344e41;
-  transition: color 0.3s ease-in-out;
-}
 .header_title {
   font-family: 'Lexend', sans-serif;
-  margin: 90px 0px 0px 100px;
   text-align: center;
   color: #fff;
+  margin: 8rem 2rem 0 2rem;
 }
 
 .header_title h3 {
@@ -85,7 +76,7 @@ body {
 }
 
 .header_button {
-  background-color: #588157;
+  background-color: #6a994e;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -101,44 +92,43 @@ body {
 }
 
 .header_button:hover {
-  background-color: #d4a373;
+  background-color: #eb5e28;
   transition: background-color 0.4s ease-in-out;
 }
 
 .header_button:hover a {
-  color: #344e41;
+  color: black;
   transition: color 0.4s ease-in-out;
 }
 
-/*  Product styles */
+
+.section__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: left;
+  margin: 5rem 2rem;
+}
 
 
-
-
-
-
-/*  Footer styles */
-.footer_container {
+.section__product {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  padding: 2rem 0;
-  margin-top: 10rem;
-  background-color: #588157;
+  flex-wrap: wrap;
+  margin: 2rem 0;
 }
 
-.footer_menu_nav_item {
-  text-decoration: none;
-  color: #000;
-  padding: 15px;
-  font-size: 15px;
+.section__product img {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-.footer_social_icons_item i {
-  color: #000;
-  padding: 15px;
-  font-size: 15px;
-}
+
+
+
+
 
 
 

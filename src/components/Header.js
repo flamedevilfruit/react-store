@@ -2,7 +2,7 @@
 import React from 'react';
 import '../assets/styles/index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
   return (
@@ -12,15 +12,13 @@ export default function Header() {
         <nav className="navbar">
           <ul className='nav_element'>
             <li className='nav_item'><a href="#">Accueil</a></li>
-            <li className='nav_item'><a href="#">Nos produits</a></li>
+            <li className='nav_item'><a href="#">Produits</a></li>
             <li className='nav_item'><a href="#">A propos</a></li>
-            <li className='nav_item'><a href="#">Nous contacter</a></li>
+            <li className='nav_item'><a href="#">Contacter</a></li>
           </ul>
         </nav>
         <div className="icons">
           <a href='#'><FontAwesomeIcon className="icons_i" icon={faShoppingCart} /></a>
-          <a href='#'><FontAwesomeIcon className="icons_i" icon={faUser} /></a>
-          <a href='#'><FontAwesomeIcon className="icons_i" icon={faSearch} /></a>
         </div>
       </div><div className="header_title">
         <h3 className="header_title_text">Donnez à votre décor végétal <br/>une touche minimaliste et contemporaine</h3>
